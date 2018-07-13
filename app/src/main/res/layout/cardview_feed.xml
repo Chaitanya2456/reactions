@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/cardView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:singleLine="true"
+                android:text="Mr.Chaitanya"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cardView_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/cardView_name"
+                android:layout_below="@+id/cardView_name"
+                android:singleLine="true"
+                android:text="IIT Bhubaneswar, India"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/cardView_dots"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon_dots" />
+
+            <ImageView
+                android:id="@+id/cardView_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView_location"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sample_image" />
+
+            <ImageView
+                android:id="@+id/cardView_heart"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/cardView_image"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/icon_heart" />
+
+            <ImageView
+                android:id="@+id/cardView_comment"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/cardView_image"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/cardView_heart"
+                android:src="@drawable/icon_comment" />
+
+            <ImageView
+                android:id="@+id/cardView_send"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/cardView_image"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/cardView_comment"
+                android:src="@drawable/icon_send" />
+
+            <ImageView
+                android:id="@+id/cardView_bookmark"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/cardView_image"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/icon_bookmark" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cardView_heart"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="#BDBDBD" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardView_description"
+                android:layout_below="@+id/divider"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Write whatever shit you want because you can"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardView_timestamp"
+                android:layout_below="@id/cardView_description"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:text="25 MINUTES AGO"
+                android:textSize="9sp"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

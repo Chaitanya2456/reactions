@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "450288333289",
+    "firebase_url": "https://reactions-4f81f.firebaseio.com",
+    "project_id": "reactions-4f81f",
+    "storage_bucket": "reactions-4f81f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450288333289:android:566507dd59fb0a40",
+        "android_client_info": {
+          "package_name": "com.example.android.tabswithswipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450288333289-f90oljfihvsn57f4itcnu69501rb6elc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA94N-bUQgiQygKws-ucdzsUApAKewUetY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

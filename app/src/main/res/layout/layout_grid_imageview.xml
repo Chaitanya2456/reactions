@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gridImageView"
+        android:scaleType="centerCrop"
+        android:background="@color/colorImage"/>
+    <!--<ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/galleryGridImage"
+        android:scaleType="centerCrop"/> -->
+</RelativeLayout>
